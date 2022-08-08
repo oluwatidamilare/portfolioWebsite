@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,100;1,200&family=Ubuntu:ital,wght@0,500;1,300;1,500;1,700&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /* --coll: crimson; */
 }
 
 html{
@@ -30,7 +33,7 @@ html{
 
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: purple;
 }
 
 .navbar .max-width{
@@ -111,7 +114,7 @@ html{
 /*home section styling*/
 .home{
     display: flex;
-    background: url("images/hulk.jpeg") no-repeat center;
+    background: url("images/unnamed___.jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -388,23 +391,23 @@ section .title::after{
 }
 
 .skills-content .right .skill1::before{
-    width: 50%;
+    width: 40%;
 }
 
 .skills-content .right .skill2::before{
-    width: 50%;
+    width: 65%;
 }
 
 .skills-content .right .skill3::before{
-    width: 90%;
+    width: 50%;
 }
 
 .skills-content .right .skill4::before{
-    width: 90%;
+    width: 40%;
 }
 
 .skills-content .right .skill5::before{
-    width: 60%;
+    width: 40%;
 }
 
 /* teams section styling */
@@ -726,8 +729,6 @@ footer span a:hover{
     }
 }
 
-
-
 @media (max-width: 500px){
     .max-width{
         padding: 0 23px;
@@ -739,4 +740,12 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
