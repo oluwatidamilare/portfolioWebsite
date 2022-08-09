@@ -224,14 +224,14 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">david.damilare@outlook.com</div>
+                                <div class="sub-title">david.damilare008@gmail.com</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://formsubmit.co/david.damilare008@gmail.com" method="POST">
+                    <form onsubmit="sendEmail(); reset(); return false;">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" id="NAME" placeholder="Name" required>
@@ -261,7 +261,7 @@
     </footer>
     <script src="script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <!-- <script>
+    <script>
         function sendEmail(){
             Email.send({
     Host : "smtp.gmail.com",
@@ -278,6 +278,6 @@
   message => alert("message sent!")
 );
         }
-    </script> -->
+    </script>
 </body>
 </html>
