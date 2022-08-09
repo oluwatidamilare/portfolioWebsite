@@ -241,10 +241,13 @@
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" id="SUBJECT" placeholder="Subject" required>
+                            <input type="text" id="SUBJECT" placeholder="Subject" value="New message" required>
                         </div>
                         <div class="field textarea">
                            <textarea id="MESSAGE" cols="30" rows="10" placeholder="describe project..." required></textarea>                        
+                        </div>
+                        <div>
+                            <input type="hidden" name="_autoresponse" value="Thank you!">
                         </div>
                         <div class="button">
                             <button type="submit">send message</button>
