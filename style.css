@@ -33,7 +33,7 @@ html{
 
 .navbar.sticky{
     padding: 15px 0;
-    background: purple;
+    background: crimson;
 }
 
 .navbar .max-width{
@@ -114,7 +114,7 @@ html{
 /*home section styling*/
 .home{
     display: flex;
-    background: url("images/unnamed___.jpg") no-repeat center;
+    background: url("images/wallpaperflare.com_wallpaper\ \(1\).jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
     color: #fff;
