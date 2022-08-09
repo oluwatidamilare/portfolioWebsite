@@ -231,7 +231,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form onsubmit="sendEmail(); reset(); return false;">
+                    <form action="https://formsubmit.co/david.damilare008@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" id="NAME" placeholder="Name" required>
@@ -261,23 +261,5 @@
     </footer>
     <script src="script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-    Host : "smtp.gmail.com",
-    Username : "david.damilare008@gmail.com",
-    Password : "(!@#$%^&*)",
-    To : "akinolatolulopedd@gmail.com",
-    From : document.getElementById("EMAIL").value,
-    Subject : "New cobtact form enquiry",
-    Body : "Name:   " + document.getElementById("NAME") +
-            "<br> Email:    " + document.getElementById("EMAIL").value + 
-            "<br> Subject:    " + document.getElementById("SUBJECT").value +
-            "<br> Message:    " + document.getElementById("MESSAGE").value 
-}).then(
-  message => alert("message sent!")
-);
-        }
-    </script>
 </body>
 </html>
