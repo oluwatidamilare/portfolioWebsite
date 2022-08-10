@@ -369,10 +369,10 @@ section .title::after{
     justify-content: space-between;
 }
 
-.skills .skills-content .right span{
+/* .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
-}
+} */
 
 .skills .skills-content .right .line{
     height: 5px;
@@ -493,6 +493,7 @@ section .title::after{
     width: calc(50% - 30px);
 }
 
+.skills .skills-content .right span,
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
