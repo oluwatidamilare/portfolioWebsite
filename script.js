@@ -12,12 +12,10 @@ $(document).ready(function(){
         }
     });
 
-
     //slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
     });
-
 
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
@@ -25,9 +23,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-
     // typing animation script
-
     var typed = new Typed(".typing", {
         strings: ["Software Developer", "Database Administrator", "Freelancer", "Data Analyst"],
         typeSpeed: 100,
