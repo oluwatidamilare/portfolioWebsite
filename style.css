@@ -391,23 +391,23 @@ section .title::after{
 }
 
 .skills-content .right .skill1::before{
-    width: 40%;
+    width: 80%;
 }
 
 .skills-content .right .skill2::before{
-    width: 65%;
+    width: 70%;
 }
 
 .skills-content .right .skill3::before{
-    width: 50%;
+    width: 55%;
 }
 
 .skills-content .right .skill4::before{
-    width: 40%;
+    width: 60%;
 }
 
 .skills-content .right .skill5::before{
-    width: 40%;
+    width: 70%;
 }
 
 /* teams section styling */
